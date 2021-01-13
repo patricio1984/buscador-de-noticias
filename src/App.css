@@ -1,0 +1,38 @@
+h3 {
+    font-size: 1.9rem;
+}
+
+.card-image img {
+    max-height: 200px;
+}
+
+.card.large {
+    height: 600px;
+}
+
+.card-content {
+    padding-bottom: 0;
+    overflow: auto!important;
+}
+
+@media (max-width: 600px) {
+    nav .brand-logo {
+        font-size: 1.8rem;
+    }
+
+    .card-image img {
+        max-height: 250px;
+    }
+}
+
+@media (max-width: 470px) {
+    nav .brand-logo {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 370px) {
+    nav .brand-logo {
+        font-size: 1.2rem;
+    }
+}
