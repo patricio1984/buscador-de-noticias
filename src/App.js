@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     const consultarAPI = async () => {
-    
+
         const url = `https://api.jornalia.net/api/v1/articles?page=1&apiKey=2467587a4eb14da3a2dfcf5552dbec0d&categories=${categoria}`
 
         const respuesta = await fetch(url);
